@@ -1,9 +1,9 @@
 {
     "mysql": {
-        "database": "socialnetwork",
-        "username": "root",
-        "password": "",
-        "host": "127.0.0.1"
+        "database": "sql7578237",
+        "username": "sql7578237",
+        "password": "kubkQl17SN",
+        "host": "sql7.freemysqlhosting.net"
     },
     "secret": "asdgwerwera",
     "adminEmails": ["admin@admin.com", "admin2@admin.com"],
