@@ -1,0 +1,24 @@
+{
+    "mysql": {
+        "database": "socialnetwork",
+        "username": "root",
+        "password": "",
+        "host": "127.0.0.1"
+    },
+    "secret": "asdgwerwera",
+    "adminEmails": ["admin@admin.com", "admin2@admin.com"],
+    "endpoints": {
+        "/users": {
+            "/": "create user",
+            "/login": "login",
+            "/me": "auth me page"
+        },
+        "/wall": {
+            "/ - get": "see all posts",
+            "/ - post": "create post",
+            "/:id - get'": "view post",
+            "/:id - put": "update post",
+            "/:id - delete": "delete post"
+        }
+    }
+}
