@@ -14,9 +14,15 @@ class ProfileCommand {
     async updateUser(id, editedUser) {
         try {
             await User.update(editedUser, { where: { id: id }, })
-            return { message: 'Post updated successfully' };
+            return { 
+                success: true,
+                message: 'Post updated successfully' 
+            };
         } catch (e) {
-            return { message: 'error' + e }
+            return { 
+                success: false,
+                message: 'error' + e
+            }
         }
     }
 }
